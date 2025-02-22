@@ -1,6 +1,7 @@
 import React, { useState, useCallback, useRef } from 'react';
 import Webcam from 'react-webcam';
 import axios from 'axios';
+import { registerStudent, markAttendance } from "../services/api";
 import {
   Camera,
   Bell,
